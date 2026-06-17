@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.jahnvi;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -41,7 +40,34 @@ public class linearSearch {
         }
         for(int i = 0 ; i < arr.length-1 ; i++){
             if(arr[i]==num){
+                return i;
             }
         }
+        return -1;
     }
+
+    // search the num and return the num itself
+    static int reNUm(int[] arr , int num){
+        if(arr.length == 0){
+            return 0;
+        }
+        for(int i = 0 ; i < arr.length-1 ; i++){
+            if(arr[i]==num){
+                return arr[i];
+            }
+        }
+        return 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
