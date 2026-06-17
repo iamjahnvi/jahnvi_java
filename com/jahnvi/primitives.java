@@ -10,7 +10,7 @@ public class primitives {
         char ch = 'r';
         String str = "kunal";
         double val = 9999.6564;
-        long num = 555555555555533333333L;
+        long num = 555555L;
         boolean check = true;
         boolean unCheck = false;
 
